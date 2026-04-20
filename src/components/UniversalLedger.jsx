@@ -1,12 +1,17 @@
-import React from 'react';
+// Financial Terminal Section
+// Updated to show Sovereign Vaults Active with BTC and ETH addresses
 
-const UniversalLedger = () => {
+const FinancialTerminal = () => {
     return (
         <div>
-            <h1>Universal Ledger</h1>
-            <p>This is the Universal Ledger component integrated with the sovereign architecture.</p>
+            <h1>Sovereign Vaults</h1>
+            <p>Active Addresses:</p>
+            <ul>
+                <li>BTC Address: your-btc-address-here</li>
+                <li>ETH Address: your-eth-address-here</li>
+            </ul>
         </div>
     );
 };
 
-export default UniversalLedger;
+export default FinancialTerminal;
